@@ -81,7 +81,7 @@ body {
     border: 1px solid white;
     padding: 2px;
     width: 400px;
-    height: 500px;
+    height: 490px;
     position: absolute;
     top: 110px;
     left: 40%;
@@ -138,10 +138,9 @@ body {
  }
 
 .copyright {
-    margin-top:5px;
     display: inline-block;
     text-align: center;
     position: absolute;
-    bottom: 10px;
+    bottom: 0;
     
  }
