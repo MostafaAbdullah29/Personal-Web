@@ -1,0 +1,146 @@
+body {
+    
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+
+.navbar {    
+    float: left;
+    list-style: none;
+}
+ .navbar li {
+    margin: 10px 4px;
+    display: inline-block;
+ }
+ .navbar li a{
+    text-decoration: none;
+    color: red;
+    font-family: 'Lexend', sans-serif;
+    font-weight: bolder;
+    border: solid 1.2px white;
+    padding: 5px 20px;
+    letter-spacing: 2px;
+ }
+ .navbar li a:hover{
+    background-color: red;
+    color: white;
+    transition: .3sc;
+ }
+
+ #home {
+    background-color: white;
+    color: black;
+ }
+ #home:hover{
+    background-color: red;
+    color: white;
+ }
+
+ .socil-icon1 {
+    width: 40px;
+    color: white;
+    border: solid 1px red;
+    width: 16px;
+    padding: 5px 9px;
+ }
+ .socil-icon1:hover{
+    background-color: white;
+    color: red;
+    transition: .3sc;
+ }
+
+ .position1  {
+    
+    position: absolute;
+    position: fixed;
+    left: 4px;
+    top: 400px;
+ }
+
+ .position2 {
+    position: absolute;
+    position: fixed;
+    left: 4px;
+    top: 431px;
+ }
+
+ .position3 {
+    position: absolute;
+    position: fixed;
+    left: 4px;
+    top: 463px;
+ }
+
+ .main-part {
+    border: 1px solid white;
+    padding: 2px;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 110px;
+    left: 40%;
+
+ }
+ .pic {
+    position: absolute;
+    top: 12px;
+    right:25%;
+   
+ }
+ img {
+    border-radius: 100%;
+ }
+ h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    position: absolute;
+    top: 205px;
+    right: 24%;
+ }
+ h2 {
+    font-family: 'Orbitron', sans-serif;
+    position: absolute;
+    top: 225px;
+    left: 7%;
+    margin-top: 32px;
+ }
+.profile {
+    color: white;
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    position: absolute;
+    top: 300px;
+    text-align: center;
+ }
+ .email {
+    position: absolute;
+    top: 430px;
+    right: 155px;
+    padding: 10px 30px;
+ }
+ .submit {
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 430px;
+    right: 31px;
+    padding: 10px 10px;
+ }
+ .submit:hover {
+    background-color: yellow;
+    color: black;
+    transition: .3sc;
+ }
+
+.copyright {
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    
+ }
